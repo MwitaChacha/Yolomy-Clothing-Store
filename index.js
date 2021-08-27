@@ -1,4 +1,4 @@
-// Scroll
+// Scroll function of links and buttons
 $(document).ready(function () {
     $('#scroll-btn, .product-link, .product-button').on('click', function () {
         $('html, body, .intro-section').animate({
@@ -7,6 +7,7 @@ $(document).ready(function () {
     });
 });
 
+// Hiding of women section
 $(document).ready(function () {
     $('#women-section').hide();
 });

@@ -1,8 +1,10 @@
+/* Whole body*/
 body {
     margin: 0 0;
     font-family: 'Roboto';
 }
 
+/* Intro section*/
 .intro-section {
     background-image: url(assets/backgrounds/hero.jpg);
     background-size: cover;
@@ -30,6 +32,7 @@ h1 {
     padding-left: 50%;
 }
 
+/* Categories Checkbox */
 .category {
     padding: 10px;
     background-color: #E7E0C9;
@@ -71,11 +74,11 @@ h1 {
 }
 
 
-.women-rule{
+.women-rule {
     content: "";
     width: 80%;
     height: 2px;
-    background: #7D7D7D;  
+    background: #7D7D7D;
 }
 
 .clothing {
@@ -99,7 +102,7 @@ h1 {
 
 .men-clothing {
     padding: 30px;
-   
+
 }
 
 .selection {
@@ -107,6 +110,7 @@ h1 {
     border-style: none;
 }
 
+/* Circles within the clothing cards*/
 .colours {
     display: inline-block;
     margin: 5px;
@@ -187,6 +191,7 @@ h1 {
     padding: 13px;
 }
 
+/* Footer section*/
 .footer {
     background-color: #444444;
     color: white;
