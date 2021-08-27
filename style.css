@@ -1,0 +1,207 @@
+body {
+    margin: 0 0;
+    font-family: 'Roboto';
+}
+
+.intro-section {
+    background-image: url(assets/backgrounds/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-item {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.introduction {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    margin-top: 170px;
+}
+
+.mouse-click {
+    padding-top: 200px;
+    padding-left: 50%;
+}
+
+.category {
+    padding: 10px;
+    background-color: #E7E0C9;
+    height: 20vh;
+}
+
+.choice {
+    padding: 20px;
+}
+
+.product-button {
+    background-color: #992E24;
+    border-style: none;
+    color: white;
+    padding: 15px 30px;
+}
+
+.men-division {
+    margin-top: 40px;
+}
+
+.men-rule {
+    position: relative;
+}
+
+.men-rule::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: #7D7D7D;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+}
+
+.women-division {
+    margin: 50px 0 50px 0;
+}
+
+
+.women-rule{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: #7D7D7D;  
+}
+
+.clothing {
+    background-color: #EDEDED;
+    max-height: 350px;
+    max-width: 80%;
+    position: relative;
+    margin: 30px;
+}
+
+.clothing:hover {
+    border-style: solid;
+    border-width: 7px;
+    border-color: #A0937D;
+    transition: 0.3s;
+}
+
+.clothing-name {
+    color: #A0937D;
+}
+
+.men-clothing {
+    padding: 30px;
+    margin: 30px;
+}
+
+.selection {
+    background-color: transparent;
+    border-style: none;
+}
+
+.colours {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.green {
+    background-color: green;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.grey {
+    background-color: grey;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.pink {
+    background-color: #C19191;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.white {
+    background-color: white;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.about-yolomy {
+    background-image: url(assets/backgrounds/about.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.about {
+    color: white;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.bordered-text {
+    border-width: 4px;
+    border-style: solid;
+    border-color: #A0937D;
+    font-size: 20px;
+}
+
+.sale-section {
+    background-color: #564A4A;
+    color: white;
+    height: 10vh;
+    font-size: 20px;
+}
+
+.social-images {
+    width: 1%;
+}
+
+.social-image {
+    padding: 13px;
+}
+
+footer {
+    background-color: #444444;
+    color: white;
+    height: 60vh;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-intro {
+    padding-top: 50px;
+}
+
+.footer.selection {
+    padding-top: 50px;
+}
+
+.footer-message {
+    padding-top: 100px;
+}
