@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#scroll-btn').on('click', function () {
+    $('#scroll-btn, .product-link').on('click', function () {
         $('html, body, .intro-section').animate({
             scrollTop: $('#men-section').offset().top
         }, 500, 'linear');
