@@ -186,10 +186,10 @@ h1 {
     padding: 13px;
 }
 
-footer {
+.footer {
     background-color: #444444;
     color: white;
-    height: 60vh;
+    
     font-size: 20px;
     text-align: center;
 }
