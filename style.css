@@ -34,13 +34,14 @@ h1 {
 
 /* Categories Checkbox */
 .category {
+    margin:auto;
     padding: 10px;
     background-color: #E7E0C9;
     height: 20vh;
 }
 
 .choice {
-    padding: 20px;
+    padding: px;
 }
 
 .product-button {
@@ -162,7 +163,7 @@ h1 {
 .about {
     color: white;
     margin: auto;
-    padding-top: 70px;
+    padding-top: 50px;
     text-align: center;
     width: 50%;
 
